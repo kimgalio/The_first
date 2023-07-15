@@ -8,7 +8,7 @@ let fanStatus = Boolean(false);
 let ledStatus = Boolean(false);
 
 // Firebase 접근 정보
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyCgakryPjIcr02UJ1ikTNQiUVzszRC5yCc",
   authDomain: "seex-d2f14.firebaseapp.com",
   databaseURL: "https://seex-d2f14-default-rtdb.firebaseio.com",
